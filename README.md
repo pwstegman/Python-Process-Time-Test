@@ -72,7 +72,7 @@ if __name__ == '__main__':
 		p.start()
 		p.join()
 	
-	print("Took", time()-start,"x",x.value) #0.43 seconds to set x to 100
+	print("Took", time()-start, "x", x.value) #0.43 seconds to set x to 100
 	
 	x = Value("i", 0)
 
@@ -82,7 +82,7 @@ if __name__ == '__main__':
 	p.start()
 	p.join()
 	
-	print("Took", time()-start,"x",x.value) #0.005 seconds to set x to 100
+	print("Took", time()-start, "x", x.value) #0.005 seconds to set x to 100
 	
 	#Creating processes takes a long time! Try to run as much as you can in as few processes as possible.
 ```
